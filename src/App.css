@@ -1,7 +1,8 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+ .App {
+  font-family: 'PT Sans', sans-serif;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,117 @@
   to {
     transform: rotate(360deg);
   }
+} */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.header-heading{
+  color:#981F48;
+  font-size: 40px;
+ 
+  
+}
+.header-subheading{
+  color:grey;
+}
+.navbar-ul{
+  display: flex;
+  justify-content: space-evenly;
+  color:white;
+  width: 100%;
+  margin-top: 20px;
+  
+ 
+}
+.navbar-ul li{
+  list-style: none;
+  padding:10px;
+  background-color: grey;
+  flex-grow: 2;
+  text-align:center ;
+
+}
+#navbar-home{
+  background-color: #981F48;
+}
+
+.header-section{
+ padding:20px;
+}
+
+/* footer--------------------*/
+.footer-copyright{
+  width: 100%;
+  padding:10px;
+  background-color: grey;
+  text-align: center;
+}
+.footer-poweredBy{
+  width: 100%;
+  padding:10px;
+  color: grey;
+  text-align: center;
+}
+.carasoul{
+  display: flex;
+  justify-content: center;
+
+}
+.carasoul img{
+  width: 100%;
+  padding:20px;
+  height:600px;
+}
+.think-health{
+  background-color: #981F48;
+  color:white;
+  text-align: center;
+  padding:30px;
+ 
+}
+.think-health h1{
+  font-size: 40px;
+}
+.think-health-p{
+  width: 100%;
+  padding:0 20%;
+  margin:20px;
+  font-weight: 500;
+}
+
+.buttons{
+   padding:10px 20px;
+   background-color: transparent;
+   border:2px solid white;
+   color:white;
+   margin:20px;
+   font-weight: 700;
+}
+.buttons:hover{
+  background-color: white;
+  color:#981F48;
+}
+
+
+/*---------info----------*/
+.info{
+  padding:20px 0px;
+}
+.info-p{
+  margin:20px;
+  
+}
+
+/*---------address----------*/
+.address{
+   text-align: center;
+   padding:30px;
+   color:grey;
+}
+.address h1{
+  color:#981F48;
+  margin:10px;
 }
